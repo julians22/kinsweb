@@ -5,3 +5,9 @@
 
     --color-primary: #831C1B;
 }
+
+@layer components {
+    .swiper-container-free-mode > .swiper-wrapper{
+        transition-timing-function : linear;
+    }
+}

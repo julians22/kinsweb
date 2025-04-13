@@ -23,7 +23,18 @@
 
           <div class="w-full">
 
-            <swiper-container :slides-per-view="1" :autoplay="true" :free-mode="true" :loop="true" css-mode="true">
+            <swiper-container 
+              :slides-per-view="1"
+              :speed="1000"
+              :grab-cursor="true" 
+              :autoplay="true" 
+              :autoplay-delay="1000"
+              :autoplay-disable-on-interaction="false"
+              :free-mode-enabled="true"
+              :loop="true" 
+
+              css-mode="true"
+              >
 
               <swiper-slide>
                 <img src="/img/zzeeeeeeeeee.png" alt="">
